@@ -321,7 +321,7 @@ body {
 .service-left {
   display: flex;
   flex-direction: column;
-  border-right: var(--border);
+  
   padding: 0;
   order: 2;
 }
@@ -517,6 +517,7 @@ padding: var(--padding-2);
     padding: 2rem;
     padding-right: 8rem;
     order: 2;
+    border-right: var(--border);
   }
 
   .service-child {
