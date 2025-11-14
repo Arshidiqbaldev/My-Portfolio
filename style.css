@@ -391,7 +391,6 @@ body {
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-   cursor: pointer;
 }
 
 .tool-child:hover {
