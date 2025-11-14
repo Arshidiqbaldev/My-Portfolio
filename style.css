@@ -149,7 +149,7 @@ body {
 
 .site-logo {
   display: inline-block;
-  width: 35%;
+  width: 30%;
 }
 
 .menu-container {
@@ -189,7 +189,7 @@ body {
   background: var(--white);
   color: var(--black);
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 0.6rem 2rem;
   cursor: pointer;
   font-family: var(--font);
   font-size: 1rem;
@@ -417,7 +417,7 @@ body {
 
 .projects {
   width: 100%;
-  border-bottom: var(--black);
+  border-bottom: var(--border);
   padding: var(--paddding-mob-2);
 }
 
@@ -459,6 +459,94 @@ body {
   border: none;
   border-top: var(--border);
 }
+
+
+
+/* contact */
+
+.contact-desc{
+  padding: var(--padding-1);
+  background: #0F0F0F;
+  border-bottom: var(--border);
+}
+
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-1);
+  padding: var(--padding-mob-1);
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-1);
+  width: 100%;
+  padding: 1rem;
+  border:var(--border);
+  justify-content: space-between;
+}
+
+.contact-child{
+  display: flex;
+ flex-direction: column;
+ gap: var(--gap-1);
+}
+
+.about-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding : 1rem;
+  border: var(--border);
+}
+
+.contact-icon{
+  width: 10%;
+  cursor: pointer;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: var(--orange);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.social{
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: var(--white-2);
+  text-transform: uppercase;
+  padding:5px;
+  border: 1px solid transparent;
+  
+}
+
+.social:hover{
+  color: var(--white) ;
+  text-decoration: line-through solid 2px var(--orange);
+  padding:5px;
+  border: var(--border);
+}
+
+
+
+.contact-right{
+  width: 50%;
+}
+
+
 
 /* tablet */
 
@@ -568,7 +656,6 @@ body {
 
   .projects {
     width: 100%;
-    border-bottom: var(--black);
     padding: var(--padding-1);
   }
 
@@ -581,6 +668,31 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+
+/* t-contact */
+
+
+
+
+.contact{
+
+  flex-direction: row;
+  gap: var(--gap-1);
+  padding: var(--padding-1);
+}
+
+
+.contact-left{
+  
+  width: 50%;
+  
+}
+
+.contact-icon{
+  width: 6%;
+  cursor: pointer;
+}
+
 }
 
 /* desktop  */
