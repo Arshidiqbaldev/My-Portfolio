@@ -123,20 +123,17 @@ body {
   margin: auto;
   overflow-x: hidden;
   height: 100%;
- 
- 
 }
 
 .header {
   display: flex;
   z-index: 100;
-   width: 100%;
+  width: 100%;
   z-index: 100;
   padding: 1rem;
 
   background: var(--black);
   border-bottom: var(--border);
-
 }
 
 .headerchild {
@@ -175,7 +172,6 @@ body {
 }
 
 .menu-links:hover {
-  
   text-decoration: line-through solid var(--orange);
 }
 
@@ -217,7 +213,6 @@ body {
   gap: var(--gap-2);
   padding: var(--padding-2);
   border-bottom: var(--border);
-  
 }
 
 .head1 {
@@ -460,93 +455,137 @@ body {
   border-top: var(--border);
 }
 
-
-
 /* contact */
 
-.contact-desc{
-  padding: var(--padding-1);
-  background: #0F0F0F;
+.contact-desc {
+  padding: var(--padding-mob-1);
+  background: #0f0f0f;
   border-bottom: var(--border);
 }
 
-
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   gap: var(--gap-1);
   padding: var(--padding-mob-1);
 }
 
-.contact-left{
+.contact-left {
   display: flex;
   flex-direction: column;
   gap: var(--gap-1);
   width: 100%;
   padding: 1rem;
-  border:var(--border);
+  border: var(--border);
   justify-content: space-between;
 }
 
-.contact-child{
+.contact-child {
   display: flex;
- flex-direction: column;
- gap: var(--gap-1);
+  flex-direction: column;
+  gap: var(--gap-1);
 }
 
-.about-card{
+.about-card {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding : 1rem;
+  padding: 1rem;
   border: var(--border);
 }
 
-.contact-icon{
+.contact-icon {
   width: 10%;
   cursor: pointer;
 }
 
-.contact-link{
+.contact-link {
   text-decoration: none;
   color: var(--orange);
   text-transform: uppercase;
   font-size: 1.1rem;
 }
 
-.social-links{
+.social-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.social{
+.social {
   text-decoration: none;
   font-size: 1.05rem;
   color: var(--white-2);
   text-transform: uppercase;
-  padding:5px;
+  padding: 5px;
   border: 1px solid transparent;
-  
 }
 
-.social:hover{
-  color: var(--white) ;
+.social:hover {
+  color: var(--white);
   text-decoration: line-through solid 2px var(--orange);
-  padding:5px;
+  padding: 5px;
   border: var(--border);
 }
 
-
-
-.contact-right{
-  width: 50%;
+.contact-right {
+  display: flex;
+  width: 100%;
 }
 
+/* form */
 
+.contact-right label {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--white-2);
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+::placeholder {
+  color: #979797;
+  text-transform: capitalize;
+}
+
+.main-form input,
+select,
+textarea {
+  color: var(--white-1);
+  font-size: 1rem;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  background: var(--black);
+  border: var(--border);
+  text-transform: capitalize;
+  outline: none;
+}
+
+.main-form input:hover {
+  border: 1px solid var(--orange);
+}
+
+.main-form input:focus {
+  border: 1px solid var(--orange);
+}
+
+.main-form input:active {
+  border-color: var(--orange);
+}
+
+.main-form textarea {
+  margin-bottom: 1rem;
+}
 
 /* tablet */
 
@@ -555,7 +594,6 @@ body {
 
   .hero {
     flex-direction: row;
-  
   }
 
   .about {
@@ -669,30 +707,25 @@ body {
     grid-template-rows: repeat(1, 1fr);
   }
 
-/* t-contact */
+  /* t-contact */
 
+  .contact {
+    flex-direction: row;
+    gap: var(--gap-1);
+    padding: var(--padding-1);
+  }
 
+  .contact-left {
+    width: 50%;
+  }
 
-
-.contact{
-
-  flex-direction: row;
-  gap: var(--gap-1);
-  padding: var(--padding-1);
-}
-
-
-.contact-left{
-  
-  width: 50%;
-  
-}
-
-.contact-icon{
-  width: 6%;
-  cursor: pointer;
-}
-
+  .contact-icon {
+    width: 6%;
+    cursor: pointer;
+  }
+  .contact-right {
+    width: 50%;
+  }
 }
 
 /* desktop  */
@@ -701,8 +734,6 @@ body {
   .menu-container {
     display: flex;
   }
-
- 
 
   .head1 {
     font-size: 12rem;
