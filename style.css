@@ -470,7 +470,7 @@ body {
 
   .about-right,
   .about-left {
-
+padding: var(--padding-2);
   width: 50%;
 
 
