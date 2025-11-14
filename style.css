@@ -460,17 +460,21 @@ body {
   /* about */
 
   .hero {
-
-
   flex-direction: row;
-  
-
 }
 
   .about {
     flex-direction: row;
+    gap: 0;
   }
 
+  .about-right,
+  .about-left {
+
+  width: 50%;
+
+
+  }
   .header {
     padding: 1rem 2rem;
     width: 100%;
