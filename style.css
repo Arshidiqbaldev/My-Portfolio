@@ -511,13 +511,14 @@ padding: var(--padding-2);
 
   .service-left {
     order: 1;
+    border-right: var(--border);
   }
 
   .service-right {
     padding: 2rem;
     padding-right: 8rem;
     order: 2;
-    border-right: var(--border);
+    
   }
 
   .service-child {
