@@ -123,13 +123,20 @@ body {
   margin: auto;
   overflow-x: hidden;
   height: 100%;
+ 
+ 
 }
 
 .header {
+  display: flex;
+  z-index: 100;
+   width: 100%;
+  z-index: 100;
   padding: 1rem;
-  width: 100%;
+
   background: var(--black);
   border-bottom: var(--border);
+
 }
 
 .headerchild {
@@ -137,6 +144,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: var(--gap-1);
+  width: 100%;
 }
 
 .site-logo {
@@ -167,7 +175,8 @@ body {
 }
 
 .menu-links:hover {
-  color: var(--purple);
+  
+  text-decoration: line-through solid var(--orange);
 }
 
 .menu-list:hover {
@@ -205,9 +214,10 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  gap: var(--gap-1);
+  gap: var(--gap-2);
   padding: var(--padding-2);
   border-bottom: var(--border);
+  
 }
 
 .head1 {
@@ -354,7 +364,7 @@ body {
 .service-name {
   font-size: 1.5rem;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .service-img {
@@ -377,8 +387,6 @@ body {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(1, 1fr);
- 
-  
 }
 
 .tool-parent:hover {
@@ -416,7 +424,6 @@ body {
 .project-desc {
   gap: var(--gap-1);
   padding-bottom: 1rem;
-  
 }
 
 .project-parent {
@@ -441,16 +448,16 @@ body {
   width: 100%;
 }
 
-.card-desc{
+.card-desc {
   display: flex;
   flex-direction: column;
   gap: var(--gap-1);
   align-items: start;
 }
 
-.divider{
+.divider {
   border: none;
-  border-top:var(--border);
+  border-top: var(--border);
 }
 
 /* tablet */
@@ -459,8 +466,9 @@ body {
   /* about */
 
   .hero {
-  flex-direction: row;
-}
+    flex-direction: row;
+  
+  }
 
   .about {
     flex-direction: row;
@@ -469,11 +477,10 @@ body {
 
   .about-right,
   .about-left {
-padding: var(--padding-2);
-  width: 50%;
-
-
+    padding: var(--padding-2);
+    width: 50%;
   }
+
   .header {
     padding: 1rem 2rem;
     width: 100%;
@@ -518,7 +525,6 @@ padding: var(--padding-2);
     padding-right: 8rem;
     order: 2;
     border-bottom: var(--border);
-    
   }
 
   .service-child {
@@ -561,22 +567,19 @@ padding: var(--padding-2);
   /* projects */
 
   .projects {
-  width: 100%;
-  border-bottom: var(--black);
-  padding: var(--padding-1);
-}
+    width: 100%;
+    border-bottom: var(--black);
+    padding: var(--padding-1);
+  }
 
   .project-desc {
-
     gap: var(--gap-1);
-    
   }
 
   .project-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-  
   }
 }
 
@@ -586,6 +589,8 @@ padding: var(--padding-2);
   .menu-container {
     display: flex;
   }
+
+ 
 
   .head1 {
     font-size: 12rem;
