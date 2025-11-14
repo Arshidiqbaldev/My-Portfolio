@@ -468,6 +468,7 @@ body {
   flex-direction: column;
   gap: var(--gap-1);
   padding: var(--padding-mob-1);
+  border-bottom: var(--border);
 }
 
 .contact-left {
@@ -575,7 +576,7 @@ textarea {
   border: 1px solid var(--orange);
 }
 
-.main-form input:focus {
+.main-form input:focus, select:focus {
   border: 1px solid var(--orange);
 }
 
@@ -709,6 +710,11 @@ textarea {
 
   /* t-contact */
 
+
+.contact-desc {
+  padding: var(--padding-1);
+
+}
 
   .about-card {
   padding: 1rem;
