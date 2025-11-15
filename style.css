@@ -220,6 +220,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 100%;
+  color: var(--white-2);
 }
 
 .last-name {
