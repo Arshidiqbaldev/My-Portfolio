@@ -598,7 +598,8 @@ select:focus {
 .footer{
   display: flex;
   width: 100%;
-  padding: var(--padding-mob-1);
+  background: #0F0F0F;
+ 
 
 }
 
@@ -606,7 +607,7 @@ select:focus {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: var(--border);
+  
 }
 
 .big-name{
@@ -620,7 +621,7 @@ select:focus {
 }
 
 .footer-desc{
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #5d5951;
@@ -854,7 +855,7 @@ justify-content: center;
 .footer{
   display: flex;
   flex-direction: column;
-  padding: var(--padding-1);
+  
 }
 
 
@@ -873,11 +874,13 @@ justify-content: center;
 
 .child-1{
 flex-direction: row;
+
 }
 
 .footer-child-left{
   width: 50%;
    border-right: var(--border);
+   padding: 2rem;
   
 }
 
@@ -893,11 +896,13 @@ flex-direction: row;
 .footer-child-right{
   width: 50%;
   display: flex;
+  padding: 2rem;
 }
 
 
 .child-2{
   flex-direction: row;
+  padding: 2rem;
  
 }
 
