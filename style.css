@@ -521,7 +521,7 @@ body {
   color: var(--white-2);
   text-transform: uppercase;
   padding: 5px;
-  border: 1px solid purple;
+  border: 1px solid transparent;
 }
 
 .social:hover {
@@ -529,6 +529,7 @@ body {
   text-decoration: line-through solid 2px var(--orange);
   padding: 5px;
   border: var(--border);
+  border-color: var(--orange);
 }
 
 .contact-right {
