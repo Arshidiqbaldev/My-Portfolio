@@ -185,7 +185,7 @@ body {
   background: var(--white);
   color: var(--black);
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 0.7rem 2rem;
   cursor: pointer;
   font-family: var(--font);
   font-size: 0.875rem;
@@ -517,11 +517,11 @@ body {
 
 .social {
   text-decoration: none;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--white-2);
   text-transform: uppercase;
   padding: 5px;
-  border: 1px solid transparent;
+  border: 1px solid purple;
 }
 
 .social:hover {
@@ -842,7 +842,7 @@ justify-content: center;
   }
 
   .contact-icon {
-    width: 6%;
+    width: 5%;
     cursor: pointer;
   }
   .contact-right {
