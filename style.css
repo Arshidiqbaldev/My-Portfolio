@@ -690,10 +690,10 @@ justify-content: center;
 
 .footer-dev-tag{
   text-decoration: none;
-  font-size: 1.01rem;
+  font-size: 1rem;
   color: var(--orange);
   font-weight: 600;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 .footer-dev-tag:hover{
