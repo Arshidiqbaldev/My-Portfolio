@@ -621,8 +621,8 @@ select:focus {
 }
 
 .footer-desc{
-  font-size: 3.5rem;
-  font-weight: 500;
+  font-size: 3.2rem;
+  font-weight: 600;
   text-transform: uppercase;
   color: #5d5951;
 }
@@ -676,7 +676,7 @@ justify-content: center;
 .child-2{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  
   justify-content: space-between;
   gap: var(--gap-1);
   padding: 1rem 1rem;
